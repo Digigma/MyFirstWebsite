@@ -1,0 +1,380 @@
+/*
+Name: Robert Kacso
+Student number: B00123508
+Assignment 1
+Due date: 08/04/2020
+Page: stylesheet.css
+*/
+
+/*========= Wildcard applying to all elements =========*/
+
+* {
+	box-sizing: border-box;
+}
+/*=====================================================*/
+
+/*======================= Body ========================*/
+
+body {
+	background-color: #092834;
+	padding: 0;
+	margin: 0;
+  font-size: 25px;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+}
+/*=====================================================*/
+
+/*========== Navbar at the top of the header ==========*/
+
+#headernav {
+  background-color: #092834;
+  width: 100%;
+  padding: 5px 5px 5px 20px;
+  color: #F0F7D4;
+}
+/*=====================================================*/
+
+/*================= Headernav anchors =================*/
+
+#headernav a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #F0F7D4;
+}
+/*=====================================================*/
+
+/*====== Hover over the anchor in the headernav =======*/
+
+#headernav a:hover {
+  color: #B2D732;
+}
+/*=====================================================*/
+
+/*======= Current clicked page in the headernav =======*/
+
+#headernav a.current_page {
+  color: #66B032;
+}
+/*=====================================================*/
+
+/*====================== Header =======================*/
+
+.header {
+  background-color: #B2D732;
+  background-image: linear-gradient(#B2D732, #F0F7D4, #B2D732);
+  padding-top: 15px;
+  padding-bottom: 3px;
+  text-align: center;
+}
+/*=====================================================*/
+
+/*=========== Main navbar under the header ============*/
+
+#navbar {
+  overflow: hidden;
+  background-color: #092834;
+}
+/*=====================================================*/
+
+/*============== Main navbar anchors ==================*/
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #F0F7D4;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  width: 20%;
+}
+/*=====================================================*/
+
+/*======== Hover over the main navbar anchor ==========*/
+
+#navbar a:hover {
+  color: #B2D732;
+}
+/*=====================================================*/
+
+/*====== Current clicked page in the main navbar ======*/
+
+#navbar a.current_page {
+  background-color: #66B032;
+  color: #F0F7D4;
+}
+/*=====================================================*/
+
+/*====================== Content ======================*/
+
+.content {
+	background-color: #F0F7D4;
+  padding: 20px;
+}
+/*=====================================================*/
+
+/*============== Anchors in the content ===============*/
+
+.content a {
+  text-decoration: none;
+  color: #347B98;
+}
+/*=====================================================*/
+
+/*===================== Header 2 ======================*/
+
+h2 {
+  text-align: center;
+}
+/*=====================================================*/
+
+/*===================== Header 3 ======================*/
+
+h3 {
+  text-align: center;
+}
+/*=====================================================*/
+
+/*=========== Images about dancers/dancing ============*/
+
+.dancerimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%
+}
+/*=====================================================*/
+
+/*============= Titles above the images ===============*/
+
+.imgtitle {
+  text-align: center;
+}
+/*=====================================================*/
+
+/*============== Link to festival guides ==============*/
+
+.guide {
+  text-align: center;
+}
+/*=====================================================*/
+
+/*=============== YouTube video frames ================*/
+
+.ytvid {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%
+}
+/*=====================================================*/
+
+/*============== Contact form container ===============*/
+
+.formcontainer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+/*=====================================================*/
+
+/*========= Contact form input and text area ==========*/
+
+input[type=text], [type=tel], [type=email], [type=password], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+/*=====================================================*/
+
+/*=============== Survey form container ===============*/
+
+#surveyform {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+/*=====================================================*/
+
+/*================ Survey form labels =================*/
+
+label {
+  display: block;
+  float: left;
+  width: 40%;
+  text-align: left;  
+  padding-right: 1em;
+}
+/*=====================================================*/
+
+/*================= Survey form input =================*/
+
+input [type=radio], [type=checkbox] {
+  display: block;
+  width: 2em;
+  height: 2em;
+  text-align: left;  
+}
+/*=====================================================*/
+
+/*=============== Select dropdown menu ================*/
+
+#selectmenu {
+  float: right;
+  width: 45%;
+  height: 30px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+/*=====================================================*/
+
+/*========= Contact/Survey form submit button =========*/
+
+input[type=submit] {
+  background-color: #66B032;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 15em;
+}
+/*=====================================================*/
+
+/*====== Contact/Survey form submit button hover ======*/
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+/*=====================================================*/
+
+/*============= Survey form reset button ==============*/
+
+input[type=reset] {
+  background-color: #808080;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 15em;
+}
+/*=====================================================*/
+
+/*========= Survey form reset button hover ============*/
+
+input[type=reset]:hover {
+  background-color: #b3b3b3;
+}
+/*=====================================================*/
+
+/*================= Google map link ===================*/
+
+#map {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%
+}
+/*=====================================================*/
+
+/*============== Sitemap unordered list ===============*/
+
+ul li {
+  list-style-type: none;
+}
+/*=====================================================*/
+
+/*====== Sticky main navbar (for the javascript) ======*/
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+/*=====================================================*/
+
+/*========= Sticky navbar within the content ==========*/
+
+.sticky + .content {
+  padding-top: 60px;
+}
+/*=====================================================*/
+
+/*==================== Back to top ====================*/
+
+.top {
+  display: block;
+  width: 100%;
+	text-align: center;
+	font-size: small;
+}
+/*=====================================================*/
+
+/*================= Back to top anchor ================*/
+
+.top a {
+	text-decoration: none;
+	color: black;
+}
+/*=====================================================*/
+
+/*======================= Footer ======================*/
+
+.footer {
+	background-color: #092834;
+  height: 50px;
+  width: 100%;
+}
+/*=====================================================*/
+
+/*=================== Footer anchor ===================*/
+
+.footer a {
+  text-decoration: none;
+  color: #B2D732;
+}
+/*=====================================================*/
+
+/*==================== Copyright ======================*/
+
+#copyright {
+  float: left;
+	text-align: center;
+	font-size: small;
+	color: #F0F7D4;
+  padding-left: 20px;
+}
+/*=====================================================*/
+
+/*============ Social media in the footer =============*/
+
+#footersocial {
+  padding-top: 10px;
+	padding-right: 20px;
+	float: right;
+  font-size: small;
+}
+/*=====================================================*/
+
+
+
+

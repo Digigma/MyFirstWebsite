@@ -1,0 +1,117 @@
+<!--
+Name: Robert Kacso
+Student number: B00123508
+Assignment 1
+Due date: 08/04/2020
+Page: austria.html
+-->
+
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<link rel ="tab icon" href = "images/RK.ico">
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	<meta charset = "utf-8">
+	<title>Dancers of the World</title>
+</head>
+
+<body>
+<!--================================== Navbar above header ==================================-->
+  <div id="headernav">
+    <a class="current_page" href="austria.html">Austria</a> | 
+    <a id="top" href="brazil.html">Brazil</a> | 
+    <a href="cuba.html">Cuba</a> | 
+    <a href="hawaii.html">Hawaii</a> | 
+    <a href="hungary.html">Hungary</a> | 
+    <a href="ireland.html">Ireland</a> | 
+    <a href="spain.html">Spain</a> | 
+    <a href="turkey.html">Turkey</a>
+  </div>
+<!--=========================================================================================-->
+
+<!--===================================       Header      ===================================-->
+  <div class="header">
+    <h1>
+      <a href="index.html">
+        <img src="images/DotW.png" alt="3 people dancing logo" width="400" height="225">
+      </a>
+    </h1>
+  </div>
+<!--=========================================================================================-->
+
+<!--===================================       Navbar      ===================================-->
+  <div id="navbar">
+    <a href="index.html">Home</a>    
+    <a href="about.html">About</a>  
+    <a href="aroundtheworld.html">Around the World</a>
+    <a href="festivals.html">Festivals</a>        
+    <a href="contact.html">Get in touch</a>
+  </div>
+<!--=========================================================================================-->
+  
+<!--===================================      Content      ===================================-->
+
+<!--===== Source: https://www.lonelyplanet.com/articles/best-places-to-get-dance-fever ======-->
+
+	<div class="content">
+  		<h2>Austria</h2>
+
+  		<p>Waltz, it's one of those "fancy" dances that were performed at balls in Austria in the 18th century and became very popular over the years. It was one of my favourite dances during my competition years.</p>
+
+
+  		<iframe class="ytvid" width="560" height="315" src="https://www.youtube.com/embed/tRTVoN95miM" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+  		<p>For more about this dance follow <a href="https://www.lonelyplanet.com/articles/best-places-to-get-dance-fever">this</a> link.</p>
+  		
+
+  		<br>
+  		<br>
+<!--=========================================================================================-->
+      
+<!--===================================  Back to the top  ===================================-->
+  	<div class="top">
+  		<p><a href="#top">Back to the top</a></p>
+  	</div>	
+	
+	</div>
+<!--=========================================================================================-->
+
+<!--===================================       Footer      ===================================-->
+	<div class="footer">
+
+			<p id="copyright">&copy;Copyright 2020 Dancers of the World | All rights reserved | | <a href="sitemap.html">Sitemap</a></p>
+
+		<div id="footersocial">
+			<a href="http://www.facebook.com" target="_blank"><img src="images/Facebook.png" alt="facebook logo" width="25" height="25"></a>
+			<a href="http://www.twitter.com" target="_blank"><img src="images/Twitter.png" alt="twitter logo" width="25" height="25"></a>
+			<a href="http://www.reddit.com" target="_blank"><img src="images/Reddit.png" alt="reddit logo" width="25" height="25"></a>
+			<a href="http://www.github.com" target="_blank"><img src="images/Github.png" alt="github logo" width="25" height="25"></a>
+			<a href="http://www.youtube.com" target="_blank"><img src="images/Youtube.png" alt="youtube logo" width="25" height="25"></a>
+		</div>
+		
+	</div>
+<!--=========================================================================================-->
+
+<!--=================================== Sticky bar script ===================================-->
+	<script>
+		window.onscroll = function() {myFunction()};
+
+		var navbar = document.getElementById("navbar");
+		var sticky = navbar.offsetTop;
+
+		function myFunction() 
+		{
+  			if (window.pageYOffset >= sticky) 
+  			{
+    			navbar.classList.add("sticky")
+  			} 
+  			else 
+  			{
+    			navbar.classList.remove("sticky");
+  			}
+		}
+	</script>
+<!--=========================================================================================-->	
+
+</body>
+</html>
